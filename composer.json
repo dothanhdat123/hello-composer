@@ -9,9 +9,9 @@
             "email": "agavitalisogbonna@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "autoload": {
-        "psr-4": {"vitalis\\HelloWorld\\": "src/"}
+        "psr-4": {"dothanhdat\\HelloWorld\\": "src/"}
     },
     "require": {}
 }
