@@ -6,5 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'vitalis\\HelloWorld\\' => array($baseDir . '/src'),
+    'dothanhdat\\HelloWorld\\' => array($vendorDir . '/dothanhdat/hello-composer/src'),
+    'dothanhdat\\HelloComposer\\' => array($baseDir . '/src'),
 );

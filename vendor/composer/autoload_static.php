@@ -7,14 +7,19 @@ namespace Composer\Autoload;
 class ComposerStaticInit5060d0b49ef56ddf8bb43ea2e75ef2e0
 {
     public static $prefixLengthsPsr4 = array (
-        'v' => 
+        'd' => 
         array (
-            'vitalis\\HelloWorld\\' => 19,
+            'dothanhdat\\HelloWorld\\' => 22,
+            'dothanhdat\\HelloComposer\\' => 25,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'vitalis\\HelloWorld\\' => 
+        'dothanhdat\\HelloWorld\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dothanhdat/hello-composer/src',
+        ),
+        'dothanhdat\\HelloComposer\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
