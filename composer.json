@@ -1,5 +1,5 @@
 {
-    "name": "vitalis/hello-composer",
+    "name": "dothanhdat/hello-composer",
     "description": "A simple hello world composer package",
     "type": "library",
     "license": "MIT",
