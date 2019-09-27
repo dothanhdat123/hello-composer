@@ -31,5 +31,9 @@
   - Dùng lệnh : composer update để load package về project.
   -Trên file index của project cần require file autoload:
            require_once __DIR__ . '/vendor/autoload.php'; 
-  -Khi sử dụng chỉ cần sử dụng đúng namespace.         
+  -Khi sử dụng chỉ cần sử dụng đúng namespace. 
+
+  #Link sau khi cập nhật trên Packagist.
+
+  -https://packagist.org/packages/dothanhdat/hello-compose#v1.0.        
      
