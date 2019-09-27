@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0edcdc76a62dc3f4646d6e5a1d79543d",
+    "content-hash": "732029a59b71947d41513438e6914257",
     "packages": [
         {
             "name": "dothanhdat/hello-composer",
@@ -46,8 +46,6 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {
-        "php": ">=5.3.0"
-    },
+    "platform": [],
     "platform-dev": []
 }

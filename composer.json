@@ -4,7 +4,8 @@
     "type": "php",
     "require": {
         "php": ">=5.3.0",
-        "dothanhdat/hello-composer": "^1.0"
+        "dothanhdat/hello-composer": "^1.0",
+        "respect/validation": "^1.1"
     },
     "license": "MIT",
     "authors": [
@@ -15,6 +16,8 @@
         }
     ],
     "autoload": {
-        "psr-4": {"dothanhdat\\HelloComposer\\": "src/"}
+        "psr-4": {
+            "dothanhdat\\HelloComposer\\": "src/"
+        }
     } 
 }
