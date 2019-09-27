@@ -30,9 +30,9 @@ class CheckUrl
 
         // Validate url
         if (filter_var($url, FILTER_VALIDATE_URL)) {
-            echo("URL bạn đã nhập là: .$url.</br> Kết quả: Đúng</br>");
+            echo("URL bạn đã nhập là: .$url.</br> Kết quả: URL hợp lệ</br>");
         } else {
-            echo("URL bạn đã nhập là: .$url.</br> Kết quả: Sai</br>");
+            echo("URL bạn đã nhập là: .$url.</br> Kết quả: URL không hợp lệ</br>");
         }
     }
 }
