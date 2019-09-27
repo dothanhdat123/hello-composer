@@ -30,8 +30,4 @@ echo $checkurl->checkURL()."</br>";
 $ShowDUrl= new ShowdetailUrl();
 echo $ShowDUrl->ShowdetailUrl();
 
-/** Show class LinkUrl**/
-
-// $ShowLinkUrl= new LinkUrl();
-// echo $ShowLinkUrl->LinkUrl();
 

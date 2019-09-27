@@ -45,13 +45,10 @@ class ShowDetailUrl
 
         // Show protocol, Domain Name ,and Path
         $url=parse_url($url);
-
-
         echo 'Scheme: :' .$url['scheme']."</br>";
         echo 'Host: :' .$url['host']."</br>";
         echo 'Path: :' .$url['path']."</br>";
     }
 }
-
 ?>
 

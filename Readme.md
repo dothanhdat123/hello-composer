@@ -21,7 +21,7 @@
    3.Tạo file Test.php.
    4.push code lên github.
    5.Đăng ký package trên packages.org.
-
+a
 #Cách sử dụng:
   - Trên file composer.json của project muốn include package đó cần thêm vào dòng.
   Ví dụ:
@@ -40,8 +40,8 @@
 
   #Hướng dẫn cài đặt PHP Unit:
 
-   +Tham khảo: https://www.codehub.vn/PHPUnit/Cai-Dat-PHPUnit.
-   +Cách 1: Download PHP Archive (PHAR) file:
+  +Tham khảo: https://www.codehub.vn/PHPUnit/Cai-Dat-PHPUnit.
+  +Cách 1: Download PHP Archive (PHAR) file:
       suhosin.executor.include.whitelist = phar
     -Với UNIX OS:
       $ chmod +x phpunit.phar
